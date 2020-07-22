@@ -248,7 +248,7 @@ to better modularize your code? There are plenty of them!
 
 > What is the time complexity of the `if-elif` cascade? In the worst case, we're
 > going to have to check the value in `IR` against all of the possible opcode
-> values. This is `O(n)`. It would be a lot better if it we an `O(1)` process...
+> values. This is `O(n)`. It would be a lot better if it were an `O(1)` process...
 
 One option is to use something called a _branch table_ or _dispatch table_ to
 simplify the instruction handler dispatch code. This is a list or dictionary of
